@@ -1,0 +1,48 @@
+
+.common__condition__box{
+    padding: 15px;
+}
+
+.condition__title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.condition__title h1{
+   font: 40px/50px var(--hevy);
+   color: var(--footer-gray);
+   text-transform: uppercase;
+}
+.condition__body__title h4{
+    font: 20px var(--semibold);
+    color: var(--footer-gray);
+}
+/* .condition__body__title{
+    padding-top: 55px;
+} */
+.condition__body__content p{
+    font: 16px/24px var(--regular);
+    color: var(--smokey-gray);
+    padding: 0 0 25px;
+}
+.condition__body__content{
+    padding: 12px 0 0;
+}
+.terms__conditon{
+    padding: 55px 0 35px;
+}
+.terms__conditon p{
+    font: 14px var(--medium);
+    color: var( --dark-orange);
+}
+/* faq box */
+.faq__box{
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+    .common__condition__box {
+        text-align: justify;
+    }
+
+}

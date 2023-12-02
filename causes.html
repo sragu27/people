@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MyPeople || Causes</title>
+        <link rel="icon" href="assets/web app_png/Logo_Header@2x.png" />
+        <!-- Bootstrap v4.6.1 css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl_carousel.min.css" />
+        <link rel="stylesheet" href="css/owl_theme.min.css" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <link rel="stylesheet" href="css/header_footer.css" />
+        <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/causes.css" />
+        <style>
+            .portfolio-items .mix {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- header section -->
+        <header class="header__box" id="Header"></header>
+
+        <!-- causes section -->
+        <section class="banner__wrapper__box">
+            <div class="container-fluid">
+                <div class="custom_container">
+                    <ul class="breadcrumb-set">
+                        <li><a class="link" href="javascript:void(0)">Causes</a></li>
+                    </ul>
+                    <div class="causes__wrapper__box">
+                        <div class="causes__main__wrapper__box">
+                            <div class="causes__main__title">
+                                <h1>Causes</h1>
+                            </div>
+
+                            <!-- tab concept -->
+
+                            <div class="banner__tab__body causes__wrapper__list">
+                                <ul class="tab__boady__tittle causes__wrapper__item" id="tab__filter">
+                                    <li><a class="all tab__list filter tab__active" href="javascript:void(0)" data-filter="all" id="allPots">All Pots</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter=".education">Education</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter=".food">Flood Affected People</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter=".health">Health</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter="none">Water</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter="none">Women</a></li>
+                                    <li><a class="tab__list filter" href="javascript:void(0)" data-filter="none">Vallvakam</a></li>
+                                </ul>
+                                <!-- search bar -->
+                                <div class="search__box__section">
+                                    <div class="search__box__item">
+                                        <div class="search__list">
+                                            <input class="search__icon" type="text" placeholder="Search pots" />
+                                        </div>
+                                        <div class="search__list">
+                                            <button class="search__btn" type="submit">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card__common__box portfolio-items" id="ourHolder">
+                                    <!-- card 1-->
+                                    <div class="tab__item card__1 mix food" id="Food" onclick="goto_6()">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_campaign.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2 -->
+                                    <div class="tab__item card__2 mix education" id="Education">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 3 -->
+                                    <div class="tab__item card__3 mix health" id="Health">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_cause_description.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- section 2 card -->
+                                    <div class="tab__item card__1 mix food" id="Food">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_campaign.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2 -->
+                                    <div class="tab__item card__2 mix education" id="Education">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 3 -->
+                                    <div class="tab__item card__3 mix health" id="Health">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_cause_description.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- section 3 card -->
+
+                                    <div class="tab__item card__1 mix food" id="Food">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_campaign.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2 -->
+                                    <div class="tab__item card__2 mix education" id="Education">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 3 -->
+                                    <div class="tab__item card__3 mix health" id="Health">
+                                        <div class="card__list">
+                                            <div class="card__banner">
+                                                <img src="assets/web app_svg/pot_cause_description.svg" alt="upload_img" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="card__body__tittle">
+                                                    <h4>For relief work in Assam Floods</h4>
+                                                    <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                </div>
+                                                <div class="card__body__content">
+                                                    <!-- progross bar -->
+                                                    <div class="range-slider">
+                                                        <ul class="range__slide__item">
+                                                            <li>$ 30,200.00 <span class="range__list">raised</span></li>
+                                                            <li><span id="rangeValue">$ 0</span></li>
+                                                        </ul>
+
+                                                        <div class="progress range">
+                                                            <div class="progress-bar" style="width:10%"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card__footer">
+                                                <ul class="card__footer__list">
+                                                    <img src="assets/user.png" alt="upload_img" />
+                                                    <li>Francis Saunders</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- view all campaigns -->
+                                <!-- button html -->
+                                <div class="view__all_tabs_btn">
+                                    <div class="lets__go__btn" id="GoInside">
+                                        <div id="btnSlide"></div>
+                                        <a href="#">View All Campaigns →</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- volunteer section -->
+
+        <section class="volunteer__banner">
+            <div class="container-fluid">
+                <div class="custom_container">
+                    <div class="volunteer__section">
+                        <div class="volunteer__body_section">
+                            <div class="volunteer__items">
+                                <div class="volunteer__content">
+                                    <h1>Join to become a volunteer!</h1>
+                                    <p>Join the 50,000+ nonprofits already raising funds online.</p>
+                                </div>
+                            </div>
+                            <div class="volunteer__items">
+                                <div class="volunteer__content">
+                                    <!-- button html -->
+                                    <div class="volunteer__list">
+                                        <div class="lets__go__btn active_btn" id="Volunteer_Btn">
+                                            <div id="btnSlide"></div>
+                                            <a href="#">Login as Volunteer →</a>
+                                        </div>
+
+                                        <!-- button html -->
+                                        <div class="lets__go__btn volunteer__btn" id="Volunteer_Btn">
+                                            <div id="btnSlide"></div>
+                                            <a href="#">New Volunteer →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section class="footer__section" id="Footer"></section>
+
+        <!-- jquery js  -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap v4.6.1 -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap popper js -->
+        <script src="js/bt_popper.min.js"></script>
+        <!-- Mixit Up -->
+        <script src='js/jquery.mixitup.min.js'></script>
+        <!-- header and footer jquery -->
+        <script src="js/header_footer.js"></script>
+        <!-- custom js -->
+        <script src="js/common.js"></script>
+
+        <script>
+            // menu active
+            $(document).ready(function(){
+                $('#causes').addClass('active_nav');
+            })
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+            // mixit up
+            $('.portfolio-items').mixItUp();
+            // go to 6th page
+            function goto_6(){
+                window.location.href = "6.html"
+            }
+        </script>
+    </body>
+</html>

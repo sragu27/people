@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 - 13</title>
+
+    <link rel="icon" href="./assets/web app_png/Logo_Header@2x.png" />
+    <!-- Bootstrap v4.6.1 css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl_carousel.min.css" />
+    <link rel="stylesheet" href="css/owl_theme.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/header_footer.css"/>
+    <link rel="stylesheet" href="css/11-13.css"/>
+</head>
+<body>
+    <header class="header__box" id="Header"></header>
+    <section class="donate-form-sec mt-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="custom_container">
+                    <ul class="breadcrumb-set">
+                        <li><a class="link" href="javascript:void(0)">Home</a></li>
+                        <li><a class="link" href="javascript:void(0)">Donate Pot Categories</a></li>
+                        <li><a class="link" href="javascript:void(0)">Donate Now</a></li>
+                    </ul>
+                    <div class="title-header">
+                        <h2>Please provide your information <br> before confirm the payment</h2>
+                    </div>
+                    <div class="donate-form-set">
+                        <div class="left-set">
+                            <div class="poster-set">
+                                <img src="assets/web app_png/education_img@2x.png" class="education_poster" alt="education img">
+                                <h4>Education</h4>
+                            </div>
+                        </div>
+                        <div class="right-set">
+                            <div class="total_input_group">
+                                <div class="input_group">
+                                    <div class="input_item">
+                                        <label for="first_name">First Name</label>
+                                        <input id="first_name" type="text" placeholder="Enter First Name">
+                                    </div>
+                                    <div class="input_item">
+                                        <label for="last_name">Last Name(Optional)</label>
+                                        <input id="last_name" type="text" placeholder="Enter Last Name">
+                                    </div>
+                                    <div class="input_item">
+                                        <label for="email_address">Email Address</label>
+                                        <input id="email_address" type="text" placeholder="Enter emai address">
+                                    </div>
+                                    <div class="input_item">
+                                        <label for="country">Country</label>
+                                        <select name="country" id="">
+                                            <option value="">Select your country</option>
+                                            <option value="">IND</option>
+                                            <option value="">PAK</option>
+                                            <option value="">AUS</option>
+                                            <option value="">ENG</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="donation-method-opt-set">
+                                <h4>Select Donation Method</h4>
+                                <ul class="donation-method-list">
+                                    <li class="donation-method-items">
+                                        <input type="radio" name="donation-method" class="radio-btn" id="one_time" checked>
+                                        <label for="one_time">One Time Payment</label>
+                                    </li>
+                                    <li class="donation-method-items">
+                                        <input type="radio" name="donation-method" class="radio-btn" id="recurring">
+                                        <label for="recurring">Recurring Payment</label>
+                                    </li>
+                                </ul>
+                                <div class="input_group">
+                                    <div class="input_item">
+                                        <label for="country">Select Currency Type</label>
+                                        <select name="country" id="">
+                                            <option value="">Select Currency Type</option>
+                                            <option value="">INR</option>
+                                            <option value="">USD</option>
+                                        </select>
+                                    </div>
+                                    <div class="input_item">
+                                        <label for="first_name">Donation Amount</label>
+                                        <input id="first_name" type="text" placeholder="Enter Donation Amount">
+                                    </div>
+                                </div>
+                                <div class="view_detail">
+                                    <div class="bank_information">
+                                        <p>View Bank's Information</p>
+                                        <label class="switch">
+                                            <input type="checkbox" id="bank_info_toggle">
+                                            <span class="slider-btn round"></span>
+                                        </label>
+                                    </div>
+                                    <p class="transfore_para">
+                                        If you would like to send money by direct bank transfer with our bank's information, please do so <br> and be sure to include a screenshot of the payment receipt for verification.
+                                    </p>
+                                    <div class="bank-info-main hide" id="bank_info_main">
+                                        <div class="bank-info-set">
+                                            <h4>Bank’s Information</h4>
+                                            <div class="ac-holder-details-set">
+                                                <ul class="ac-holder-details">
+                                                    <li class="ac-holder-items">
+                                                        <p>Account Holder Name:</p>
+                                                        <h6>My People Education</h6>
+                                                    </li>
+                                                    <li class="ac-holder-items">
+                                                        <p>Account Number:</p>
+                                                        <h6>98477648</h6>
+                                                    </li>
+                                                    <li class="ac-holder-items">
+                                                        <p>Sort Code:</p>
+                                                        <h6>12-34-56</h6>
+                                                    </li>
+                                                    <li class="ac-holder-items">
+                                                        <p>BIC:</p>
+                                                        <h6>WESTGBAV</h6>
+                                                    </li>
+                                                    <li class="ac-holder-items">
+                                                        <p>IBAN:</p>
+                                                        <h6>NL91 ABNA 0417 1643 00</h6>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="payment-receipt-set">
+                                            <h4>Upload Payment Receipt</h4>
+                                            <label for="upload_doc" class="upload_label">
+                                                <input type="file" class="hide" id="upload_doc">
+                                                <img src="assets/web app_png/upload-img.png" alt="" class="upload-img">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ct_action">
+                                    <div class="checkbox_group">     
+                                       <div class="terms_and_condition payment_control">
+                                           <input type="checkbox" id="signup1">
+                                           <label for="signup1">Donate anonymously</label>
+                                       </div>
+                               
+                                         <div class="terms_and_condition payment_control">
+                                             <input type="checkbox" id="signup">
+                                             <label for="signup">By accepting MyPeople <a href="#" class="signup font_resize">Terms and Conditions &amp; Privacy Policy</a></label>
+                                         </div>
+                                    </div>   
+                                    <div class="payment_process_control payment_page">
+                                        <div class="lets__go__btn active_btn" id="GoInside"  data-toggle="modal" data-target="#success_modal">
+                                                <a href="javascript:void(0)">Proceed</a>
+                                        </div>
+                                        <div class="lets__go__btn" id="GoInside">
+                                            <div class="btnSlide" id="btnSlide"></div>
+                                            <a href="javascript:void(0)">Back</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="donation-pot_banner">
+        <div class="container-fluid">
+            <div class="custom_container">
+                <div class="row">
+                    <div class="donation-pot_section">
+                        <div class="donation-pot_body_section">
+                            <div class="donation-pot_items">
+                                <div class="donation-pot_content">
+                                    <h1> Donate Pot</h1>
+                                    <p>If you don't know where to send money for an urgent need, you can donate to Pot Donation, and we'll share the money between the needy causes. And you will be informed of the recipient of your donation. quo aut quid bonum esse appetendum, alterum aspernandum sentiamus alii autem, quibus ego assentior, cum teneam sententiam, quid malum.</p>
+                                </div>
+                            </div>
+                            <div class="donation-pot_items">
+                                <div class="donation-pot_content">
+                                    <!-- button html -->
+                                    <div class="donation-pot_list">
+                                        <div class="lets__go__btn active_btn" id="donation-potBtn">
+                                            <div class="btnSlide" id="btnSlide"></div>
+                                            <a href="javascript:void(0)">Donate Now →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer__section" id="Footer"></footer>
+    <!-- Success Modal -->
+    <div id="success_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="success-modal-body">
+                        <img src="./assets/web app_png/pot_cause_description@2x.png" alt="" class="success-modal-pot">
+                        <h2>Donated <br> Successfully</h2>
+                        <div class="payment_process_control payment_page">
+                            <div class="lets__go__btn active_btn" id="GoInside">
+                                    <a href="javascript:void(0)">DONATE MORE</a>
+                            </div>
+                            <div class="lets__go__btn" id="GoInside">
+                                <div class="btnSlide" id="btnSlide"></div>
+                                <a href="javascript:void(0)">DOWNLOAD RECEIPT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- jquery js  -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap v4.6.1 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap popper js -->
+    <script src="js/bt_popper.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl_carousel.min.js"></script>
+    <script src="css/animate.min.css"></script>
+    <!-- marquee auto carousel -->
+    <!-- <script src="js/marquee.js"></script> -->
+    <!-- owl jquery  -->
+    <script src="js/owl_jquery.js"></script>
+    <!-- custom js -->
+    <script src="js/common.js"></script>
+    <!-- header and footer jquery -->
+    <script src="js/header_footer.js"></script>
+
+    <script>
+        // menu active
+        $(document).ready(function(){
+            $('#home').addClass('active_nav');
+        })
+        
+        $('#bank_info_toggle').on('change',function(e){
+            const checked = $(this).is(':checked'); 
+            if(checked == true){
+                $('#bank_info_main').removeClass('hide');
+            }
+            else{
+                $('#bank_info_main').addClass('hide');
+            }
+        });
+    </script>
+</body>
+</html>

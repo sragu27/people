@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>7 - 9</title>
+
+        <link rel="icon" href="./assets/web app_png/Logo_Header@2x.png" />
+        <!-- Bootstrap v4.6.1 css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl_carousel.min.css" />
+        <link rel="stylesheet" href="css/owl_theme.min.css" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <link rel="stylesheet" href="css/header_footer.css" />
+        <link rel="stylesheet" href="css/home.css" />
+
+        <link rel="stylesheet" href="css/7-9.css" />
+    </head>
+    <body>
+        <header class="header__box" id="Header"></header>
+
+        <section class="form_page">
+            <div class="total_login_page">
+                <h1>Please provide your information <br> before confirm the payment</h1>
+
+                <!-- <ul class="breadcrumb-set">
+            <li><a class="link" href="javascript:void(0)">Home</a></li>
+            <li><a class="link" href="javascript:void(0)">Donate Pot Categories</a></li>
+            <li><a class="link" href="javascript:void(0)">Donate Now</a></li>
+        </ul>     -->
+
+                <div class="total_input_group">
+                    <div class="input_group signin_page">
+                        <div class="input_item">
+                            <label for="">First Name</label>
+                            <input id="" type="text" placeholder="Enter First Name" />
+                        </div>
+
+                        <div class="input_item">
+                            <label for="">Last Name(Optional)</label>
+                            <input id="" type="text" placeholder="Enter Last Name" />
+                        </div>
+
+                        <div class="input_item">
+                            <label for="">Email Address</label>
+                            <input id="" type="text" placeholder="Enter email address" />
+                            <img src="./assets/web app_png/password_open.png" alt="" />
+                        </div>
+
+                        <div class="input_item">
+                            <label for="">Country</label>
+                            <select name="" id="">
+                                <option value="">Select your country</option>
+                                <option value="">IND</option>
+                                <option value="">PAK</option>
+                                <option value="">AUS</option>
+                                <option value="">ENG</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="view_detail">
+                        <div class="bank_information">
+                            <p>View Bank's Information</p>
+                            <label class="switch">
+                                <input type="checkbox" id="bank_info_toggle" />
+                                <span class="slider-btn round"></span>
+                            </label>
+                        </div>
+                        <p class="transfore_para">If you would like to send money by direct bank transfer with our bank's information, please do so <br> and be sure to include a screenshot of the payment receipt for verification.</p>
+                    </div>
+
+                    <div class="bank_updatepayment hide">
+                        <div class="bank_information_card">
+                            <div class="bank_info_title">
+                                <p class="update_title">Upload Payment Recipt</p>
+                                <div class="bank_info">
+                                    <div class="account_holder">
+                                        <p class="question">Account Holder Name :</p>
+                                        <p class="answer">My People Education</p>
+                                    </div>
+
+                                    <div class="account_number_sort_code">
+                                        <div class="account_detail">
+                                            <p class="question">Account Number :</p>
+                                            <p class="answer">98477648</p>
+                                        </div>
+
+                                        <div class="account_detail">
+                                            <p class="question">Sort Code :</p>
+                                            <p class="answer">12-34-56</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="account_number_sort_code">
+                                        <div class="account_detail">
+                                            <p class="question">BIC :</p>
+                                            <p class="answer">WESTGBAV</p>
+                                        </div>
+
+                                        <div class="account_detail account_resize">
+                                            <p class="question">IBAN :</p>
+                                            <p class="answer">NL91 ABNA 0417 1643 00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="upload_payment">
+                                <p class="update_title">Bank’s Information</p>
+                                <label for="upload_image" class="upload_label">
+                                    <input type="file" accept="image" id="upload_image" style="display: none;" />
+                                    <img class="upload_img" src="assets/upload-recept.png" alt="" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border_underline"></div>
+                    <div class="ct_action">
+                        <div class="checkbox_group">
+                            <div class="terms_and_condition payment_control">
+                                <input type="checkbox" id="signup1" />
+                                <label for="signup1">Donate anonymously</label>
+                            </div>
+
+                            <div class="terms_and_condition payment_control">
+                                <input type="checkbox" id="signup" />
+                                <label for="signup">By accepting MyPeople <a href="#" class="link">Terms and Conditions & Privacy Policy</a></label>
+                            </div>
+                        </div>
+
+                        <div class="payment_process_control payment_page">
+                            <div class="lets__go__btn active_btn" id="GoInside" data-toggle="modal" data-target="#success_modal">
+                                <a href="#">Proceed</a>
+                            </div>
+
+                            <div class="payment_backbutton">
+                                <button>BACK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- modal-popup -->
+
+        <!-- Success Modal -->
+        <div id="success_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="success-modal-body">
+                            <img src="./assets/web app_png/pot_cause_description@2x.png" alt="" class="success-modal-pot" />
+                            <h2>
+                                Donated <br />
+                                Successfully
+                            </h2>
+                            <div class="payment_process_control payment_page">
+                                <div class="lets__go__btn active_btn" id="GoInside">
+                                    <a href="javascript:void(0)">DONATE MORE</a>
+                                </div>
+                                <div class="lets__go__btn" id="GoInside">
+                                    <div class="btnSlide" id="btnSlide"></div>
+                                    <a href="javascript:void(0)">DOWNLOAD RECEIPT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer__section" id="Footer"></section>
+
+        <!-- jquery js  -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap v4.6.1 -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap popper js -->
+        <script src="js/bt_popper.min.js"></script>
+        <!-- owl carousel -->
+        <script src="js/owl_carousel.min.js"></script>
+        <script src="css/animate.min.css"></script>
+        <!-- marquee auto carousel -->
+        <!-- <script src="js/marquee.js"></script> -->
+        <!-- owl jquery  -->
+        <script src="js/owl_jquery.js"></script>
+        <!-- custom js -->
+        <script src="js/common.js"></script>
+        <!-- header and footer jquery -->
+        <script src="js/header_footer.js"></script>
+
+        <script>
+          
+
+            //------- input-paymentpage-toggle-start
+            $("#bank_info_toggle").on("change", function (e) {
+                const checked = $(this).is(":checked");
+                if (checked == true) {
+                    $(".bank_updatepayment").removeClass("hide");
+                } else {
+                    $(".bank_updatepayment").addClass("hide");
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,408 @@
+
+ /*------------ CREDENTIALS TO LOGIN START-----------*/
+
+ .form_page{
+    padding-top:100px;
+}
+
+.total_login_page > h1{
+    color:var(--footer-gray);
+    text-transform:uppercase;
+    font-size:40px;
+    font-family:sf-hevy;
+    text-align:center;
+    padding: 30px 0px 50px;
+}
+
+.input_item{
+ width:45%;
+ padding-bottom: 20px;
+ position:relative;
+}
+
+.input_item > label{
+    display:block;
+    color:var(--smokey-gray);
+    font-size:12px;
+    font-weight:500;
+    font-family:var(--medium);
+    line-height:23px;
+    margin-bottom: 5px;
+}
+
+/* .input_item > input{
+    border:1px solid RGBA(38, 38, 38, 0.25);
+    border-radius:4px;
+    width:100%;
+    height:50px;
+    padding: 6px 12px;
+    color: var(--dark-gray);
+}  */
+.input_item > input{
+    border:1px solid RGBA(38, 38, 38, 0.25);
+    border-radius:4px;
+    width:100%;
+    height:50px;
+    font-size:16px;
+    font-style:var(--regular);
+    font-weight:400;
+    padding-left:15px;
+    outline:none;
+} 
+
+.input_item > input::placeholder{
+  color:var(--smokey-gray);
+}
+
+.total_input_group{
+    width:70%;
+    margin:0 auto;
+    /* display:flex;
+    justify-content:space-between; */
+}
+
+.input_group{
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+
+.ct_action{
+    width:100%;
+    margin:0 auto;
+}
+
+.forget_link{
+    color:var(--dark-orange);
+    font-size:14px;
+    font-weight:700;
+    font-family:var(--bold);
+    padding:50px 0px;
+    display:inline-block;
+}
+.forget_link:hover{
+    color:var(--dark-orange);
+}
+.signup_account{
+    width: 40%;
+}
+.login_signup_control{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom:80px;
+    white-space: nowrap;
+}
+
+.signup{
+    font:16px/20px var(--regular) ;
+    color:var(--dark-orange);
+}
+.signup:hover{
+    color: var(--dark-orange);
+}
+
+.signup_account p{
+    color:var(--login-para);
+    font-size:16px;
+    font-family:var(--regular);
+    line-height:23px;
+    margin-left: 5%;
+}
+
+/*------------ CREDENTIALS TO LOGIN END-----------*/
+
+
+
+/*------------ CREDENTIALS TO SIGNUP START-----------*/
+.input_item > select{
+    border:1px solid RGBA(38, 38, 38, 0.25);
+    border-radius:4px;
+    width:100%;
+    height:50px;
+    color: var(--smokey-gray);
+    font-size: 16px;
+    font-weight: 500;
+    font-family:var(--regular);
+    line-height: 23px;
+    padding-left:15px;
+    appearance:none;
+
+} 
+
+
+.input_item > img{
+    position:absolute;
+    top:40px;
+    right:8px;
+}
+
+.border_underline{
+    border-bottom:1px solid var(--border-line);
+}
+
+.font_resize{
+    font-size:16px;
+}
+
+.terms_and_condition{
+    padding:40px 0px;
+}
+
+.terms_and_condition > p{
+    margin-left:15px;
+
+}
+
+.signin_page{
+    padding-bottom:50px;
+}
+
+/*------------ modal-popup -------------*/
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.popup_cut{
+    display:block;
+}
+
+.opt_item{
+    width:60px;
+    height:60px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid RGB(63, 62, 64);
+    line-height:60px;
+    font-size:30px;
+    margin-right:20px;
+}
+
+.opt_item::placeholder{
+    color:RGB(63, 62, 64);
+}
+
+.OTP_type{
+    text-align:center;
+}
+
+.OTP_type p{
+   color:var(--dark-orange);
+   font-size:14px;
+   font-family:var( --bold);
+   font-weight:700;
+   padding: 25px 0px;
+}
+
+.popup_title {
+    color:var(--footer-gray);
+    font-size:40px;
+    font-family:sf-hevy;
+    font-weight:900;
+    width: 60%;
+    margin: 0 auto;
+}
+.password_mobilnumber p{
+    color:var(--footer-gray);
+    font-size:18px;
+    font-family:var(--regular);
+    line-height:24px;
+    font-weight:400;
+    text-align:center;
+}
+
+.otp_number{
+    color:var(--dark-orange);
+    font-size:18px;
+    font-family:var(--medium);
+}
+.modal-footer{
+    text-align:center;
+    display: block;
+    border-top: 0px solid #dee2e6;
+} 
+
+.modal-header {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/*------------ CREDENTIALS TO SIGNUP END-----------*/
+
+/*------------ CONFORM-PAYMENT-START ----------------*/
+
+  .heading_cut{
+    display:block;
+  }
+
+  .bank_information{
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+   
+  }
+
+  .view_detail{
+    width:100%;
+    margin:0 auto;
+  }
+
+  .bank_info_cut{
+    display:block;
+  }
+
+  .bank_information p{
+    color:var(--footer-gray);
+    font-size:16px;
+    font-family:var(--semibold);
+    font-weight:600;
+    padding-bottom:8px;
+  }
+
+  .transfore_para{
+    color:var(--light-black);
+    font-size:12px;
+    line-height:16px;
+    font-family:var(--regular);
+    padding-bottom:50px;
+  }
+
+  .payment_control{
+    padding:0px 0px;
+    margin-bottom:6px;
+  }
+
+  .checkbox_group{
+    padding:20px 0px;
+  }
+
+  .payment_backbutton button{
+    color:var(--dark-gray);
+    border:2px solid var(--dark-gray);
+    border-radius:4px;
+    font-size:14px;
+    font-weight:400;
+    font-family:var(--bold);
+    background:#fff;
+    /* padding:12px 80px; */
+    width:250px;
+    height:50px;
+  }
+
+  /* .payment_page{
+    justify-content: center;
+    width: 100%;
+  } */
+  .payment_process_control{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  /*------------ CONFORM-PAYMENT-END ----------------*/
+
+
+  /*------------- update-payment-start-------------- */
+.bank-info-set {
+    margin-bottom: 20px;
+}
+.bank-info-set h4 {
+    font: 16px/20px var(--semibold);
+    color: var(--footer-gray);
+    padding-bottom: 8px;
+}
+.ac-holder-details-set {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+.ac-holder-details {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ac-holder-items:first-child {
+    width: 100%;
+}
+
+.ac-holder-items {
+    width: 45%;
+    margin: 10px 0px;
+}
+.ac-holder-items p {
+    font: 12px/14px var(--medium);
+    color: var(--smokey-gray);
+    padding-bottom: 3px;
+}
+.ac-holder-items {
+    width: 45%;
+    margin: 10px 0px;
+}
+.ac-holder-items p {
+    font: 12px/14px var(--medium);
+    color: var(--smokey-gray);
+    padding-bottom: 3px;
+}
+.payment-receipt-set {
+    margin-bottom: 20px;
+}
+.payment-receipt-set h4 {
+    font: 16px/20px var(--semibold);
+    color: var(--footer-gray);
+    padding-bottom: 8px;
+}
+.upload_label {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.upload-img {
+    width: 100%;
+}
+/* =========== modal popup =========== */
+.success-modal-body{
+text-align: center;
+margin: 50px 0px;
+}
+.success-modal-pot{
+width: 30%;
+margin: auto;
+}
+.success-modal-body h2{
+font: 40px/50px var(--hevy);
+color: var(--footer-gray);
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+@media screen and (max-width:667px) {
+.success-modal-pot{
+  width: 50%;
+}
+}
+@media screen and (max-width:412px){
+.success-modal-body{
+  margin: 20px 0px;
+}
+.success-modal-body h2{
+  padding-bottom: 10px;
+  font: 34px/38px var(--hevy);
+}
+}
+/* =========== modal popup end =========== */
+
+/*------------- update-payment-end-------------- */
+   

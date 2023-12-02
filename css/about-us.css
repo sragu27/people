@@ -1,0 +1,221 @@
+
+.about__banner__section {
+    position: relative;
+    width: 100%;
+    background: #FCF0D9;
+    padding-top: 85px;
+    overflow: hidden;
+}
+.about__us__item{
+    padding-top: 35px;
+    position: relative;
+}
+.banner_play_icon img{
+    width: 124px;
+}
+.about__us__videos{
+    z-index: 5;
+    position: relative;
+    padding-top: 70px;
+}
+.banner_play_icon{
+    position: absolute;
+    z-index: 9;
+    left: 45%;
+    top: 50%;
+    width: 10%;
+}
+/* .banner__video__section::before{
+    content: "";
+    position: absolute;
+    background-image: url(../assets/v.2/about_bg_2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    transform: translate(6%, 31%);  
+    left: 0;
+    background-size: 15%;
+    top:0;
+}
+.banner__video__section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url(../assets/v.2/about_bg_1@2x.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: 20%;
+    transform: translate(68%, 38%);
+} */
+.about__us__banner {
+    width: 80%;
+    margin: auto;
+}
+.about__us__item .banner__tittle h2{
+    font: 40px/50px var(--hevy);
+    text-transform: uppercase;
+    color: var(--footer-gray);
+}
+.about__us__item .banner__tittle{
+    text-align: center;
+}
+.about_description_section{
+    /* min-height: 100vh; */
+    margin-top: -250px;
+    background: #fff;
+    z-index: 0;
+    position: relative;
+    padding-top: 300px;
+}
+
+.about__us__videos img{
+    width: 100%;
+}
+.about_mypeople_descriptipon{
+    width: 95%;
+    margin: auto;
+}
+.mypeople__header{
+    text-align: center;
+}
+.about_mypeople_body .about_content_box p{
+    font: 16px/24px var(--regular);
+    color: var(--dark-black);
+}
+.about_mypeople_body{
+    padding-top: 24px;
+}
+.about_content_box p{
+    padding-bottom: 20px;
+}
+.mypeople_story_title h2{
+    font: 40px var(--semibold);
+    color: RGBA(0, 0, 0, 0.85);
+}
+.mypeople_story_body p{
+    font: 16px/28px var(--regular);
+    color: var(--dark-black);
+}
+.mypeople_story_box{
+    width: 95%;
+    margin: auto;
+}
+.mypeople_story_title{
+    padding-bottom: 40px;
+}
+.mypeople_story_section{
+    padding-top: 100px;
+}
+.mypeople_story_item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.mypeople_story_content{
+    width: 60%;
+}
+.mypeople_story_img_set{
+    width: 38%;
+}
+.mypeople_story_img_set img{
+    width: 100%;
+}
+.mypeople_journey_box{
+    width: 95%;
+    margin: auto;
+}
+.journey__title h2{
+    font:40px var(--semibold);
+    color: var(--black);
+}
+.journey__container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.jouney__section{
+    padding: 80px 0 80px;
+}
+.journey__title{
+    padding-bottom: 16px;
+}
+.journey__body .journey__content p{
+    font: 16px/24px var(--regular);
+    color: var(--smokey-gray);
+    
+}
+.journey__content{
+    width: 80%;
+    margin: auto;
+}
+.journey_video_banner img{
+    width: 100%;
+}
+.journey__videos{
+    padding-top: 40px;
+    position: relative;
+}
+.journey_play_icon img{
+    width: 124px;
+}
+.journey_play_icon{
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 70px);
+}
+.contactus__title h2{
+    font: 40px var(--semibold);
+    color: var(--black);
+}
+.contactus__section{
+    background: #F8F8F8;
+}
+.contact__container{
+    padding: 60px 0 50px;
+    width: 95%;
+    margin: auto;
+}
+.contactus__title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.msg_description_box{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.msg__box{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea.msg__box{
+    height: 145px;
+    background: transparent;
+}
+.msg__box:focus-visible{
+    outline: none;
+}
+.input_item input{
+    background: transparent;
+}
+.contactus__submit{
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width:1440px){
+
+}

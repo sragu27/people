@@ -1,0 +1,193 @@
+.banner__wrapper__box {
+    padding: 100px 0 50px;
+}
+.causes__wrapper__box {
+    padding: 55px 0 35px;
+}
+.sub__title__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.causes__wrapper__sub__tittle p {
+    font: 14px var(--medium);
+    color: var(--dark-orange);
+}
+.share__icon img {
+    width: 20px;
+}
+.causes__main__wrapper__box {
+    padding-top: 35px;
+}
+.causes__main__header h2 {
+    font: 40px/50px var(--hevy);
+    color: var(--footer-gray);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.causes__main__header p{
+    font: 16px/22px var(--regular);
+    color: var(--smokey-gray);
+    text-align: center;
+}
+.causes__wrapper__body__section {
+    display: flex;
+    padding: 100px 0px 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0px;
+}
+.causes__wrapper__items {
+    width: 48%;
+}
+.causes__wrapper__banner__desc{
+    margin-bottom: 20px;
+}
+.causes__wrapper__banner__desc h2{
+    font: 40px/50px var(--bold);
+    color: var(--footer-gray);
+    padding-bottom: 10px;
+}
+.donate-cta-set{
+  display: flex;
+  align-items: flex-start;
+}
+.donate-cta-set p{
+    font: 16px/24px var(--regular);
+    color: var(--smokey-gray);
+    padding-right: 15px;
+}
+.causes__wrapper__banner__img img {
+    width: 100%;
+    border-radius: 16px;
+}
+.causes__wrapper__banner__range__img {
+    text-align: center;
+}
+.causes__wrapper__banner__range__img img {
+    width: 40%;
+}
+.causes__range__slide__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.causes__range__slide__item li {
+    font: 24px/18px var(--bold);
+    color: var(--footer-gray);
+}
+.causes__range__slide__item li span {
+    font: 18px/19px var(--medium);
+    color: #8C8E99;
+}
+.causes__range__slide__item .cause_range_Value {
+    font: 24px/25px var(--bold);
+    color: var( --forest-green);
+}
+.causes__input__box{
+    margin: 10px 0px;
+}
+.cause__range {
+    width: 100%;
+    height: 15px;
+    -webkit-appearance: none;
+    background: var(--eggshell);
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px var(--eggshell);
+}
+.range__info {
+    color: var(--regent-gray);
+    font: 18px/24px var(--medium);
+}
+.cause__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--dark-orange);
+    cursor: pointer;
+    border: 4px solid var(--dark-orange);
+    box-shadow: -400px 0 0 450px var(--dark-orange);
+  }
+  .divider-underline{
+    border-bottom: 1px solid var(--eggshell);
+    margin: 0px 0px;
+  }
+  .view__more_btn{
+    text-align: center;
+  }
+  .cust__donate__now_btn{
+    min-width: 160px;
+    margin-right: 0px;
+  }
+  @media screen  and (max-width:1440px){
+    .causes__wrapper__body__section{
+        padding: 40px 0px 50px;
+      }
+  }
+  @media screen  and (max-width:900px){
+    .causes__wrapper__box{
+        padding: 55px 0 0px;
+    }
+    .causes__wrapper__body__section{
+        flex-wrap: wrap;
+    }
+    .causes__wrapper__items{
+        width: 100%;
+    }
+    .causes__wrapper__banner__img{
+        margin-bottom: 50px;
+    }
+  }
+  @media screen  and (max-width:768px){
+    .causes__wrapper__box {
+        padding: 0px 0 0px;
+    }
+    .causes__main__header h2{
+        padding-bottom: 5px;
+    }
+    .causes__main__header p br{
+        display: none;
+    }
+  }
+  @media screen  and (max-width:768px){
+    .causes__wrapper__banner__desc h2{
+        font: 36px/40px var(--bold);
+    }
+  }
+  @media screen  and (max-width:550px){
+    .donate-cta-set {
+        flex-direction: column;
+    }
+    .donate-cta-set p{
+        padding-bottom: 10px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .cust__donate__now_btn {
+        min-width: 130px;
+    }
+    .cust__donate__now_btn a{
+        height: 45px;
+        width: 180px;
+    }
+    .causes__wrapper__banner__desc h2{
+        padding-bottom: 5px;
+    }
+  }
+  @media screen  and (max-width:420px){
+    .banner__wrapper__box {
+        padding: 80px 0 50px;
+    }
+    .causes__main__wrapper__box {
+        padding-top: 15px;
+    }
+    .causes__wrapper__body__section {
+        padding: 30px 0px 30px;
+    }
+    .causes__wrapper__banner__range__img img {
+        width: 60%;
+    }
+  }

@@ -1,0 +1,485 @@
+.breadcrumb-set{
+    padding-top: 20px;
+}
+.myprofile_banner_set h3{
+    font: 24px/50px var(--hevy);
+    text-transform: uppercase;
+    color: var(--footer-gray);
+}
+.myprofile_banner_set h2{
+    font: 50px/60px var(--hevy);
+    text-transform: uppercase;
+    color: var(--footer-gray);
+}
+h2 span.doller{
+        color: var(--dark-orange);
+}
+.header-title{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0px 40px;
+}
+.header-title h2{
+    font: 44px/40px var(--hevy);
+    text-transform: uppercase;
+    color: var(--footer-gray);
+    text-align: center;
+}
+.profile_section{
+    padding-bottom: 55px;
+}
+
+.profile__item a.profile__link{
+    color: #8C8E99;
+    font: 16px var(--regular);
+    display: block;
+    padding: 10px 50px;
+    border-radius: 4px;
+}
+.profile__item{
+    padding-right: 40px;
+}
+.profile__nav .profile__link.active{
+    color: #3f3e40;
+    background-color: #ff9700;
+}
+.tab_profile_body .profile__title h4{
+    font: 24px var(--semibold);
+    color: RGBA(0, 0, 0, 0.85);
+}
+.profile__tab .profile_tab_content{
+    margin-top: 30px;
+}
+.profile__title{
+    padding-bottom: 24px;
+}
+.my__profile__wrapper{
+    width: 95%;
+    margin: auto;
+}
+.profile__nav{
+    flex-wrap: nowrap;
+}
+.profile__input__group{
+    width: 60%;
+    margin: 0;
+}
+.change_link a.change_profile_pwd{
+    font: 12px var(--bold);
+    text-transform: uppercase;
+    color: var(--dark-orange);
+    text-decoration: none;
+    padding: 0 15px 0;
+}
+.change_link{
+    margin-bottom: 20px;
+}
+.change_modal_title h2{
+    font: 40px/41px var(--hevy);
+    text-transform: uppercase;
+    color: var(--footer-gray);
+}
+.change-modal-body{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 40px;
+}
+/* .modal-lg{
+    max-width: 600px;
+} */
+.change_modal_title{
+    padding-bottom: 30px;
+}
+.save_chng_btn{
+    text-align: center;
+    padding-top: 20px;
+}
+.modal_chng_input{
+    width: 100%;
+}
+.modal_chng_input input{
+    font: 18px/22px var(--regular);
+    color: #252424;
+}
+.myprofile_banner_set{
+    background: url('../assets/web\ app_png/super Donor@2x.png');
+    background-repeat: no-repeat;
+    /* height: 300px; */
+    width: 95%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    padding: 25px 40px 25px;
+    min-height: 300px;
+    margin-top: 25px;
+}
+.donation_body_wrapper .group_cards .orange__card{
+    background-image: url('../assets/web\ app_svg/orange_card.svg');  
+}
+.donation_body_wrapper .group_cards .card__item{
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 110px;
+    width: 215px;
+    margin-right: 20px;
+    padding: 15px;
+    text-align: right;
+}
+.group_cards{
+    display: flex;
+    padding-bottom: 50px;
+}
+.donation_body_wrapper .group_cards .blue__card{
+  background-image: url('../assets/web\ app_svg/blue_card.svg');  
+}
+.dhash_btn{
+    padding-top: 20px;
+}
+.dhash_btn .shareit{
+    text-decoration: none;
+    border: 1px dashed;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: var(--dark-orange);
+    font: 12px var(--bold);
+}
+.card__item p{
+    font: 14px var(--regular);
+    color: #3F3E40;
+    opacity: 0.6;
+}
+.card__item h4{
+    font: 30px var(--bold);
+    color: var(--footer-gray);
+    padding-top: 12px;
+}
+
+.search__icon{
+    background: url(../assets/web\ app_svg/search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    background-size: 20px 20px;
+    border: none;
+    width: 518px;
+    padding: 14px 35px;
+    border: 1px solid #c9c9c9   ;
+    border-radius: 4px;
+    color: var(--footer-gray); 
+    font: 16px var(--regular);
+}
+.search__icon:focus-visible {
+    outline: none ;
+}
+.search__icon::placeholder{
+    color: #bcbcbc;
+    font: 16px var(--regular);
+}
+.search__box__section{
+    padding: 0px 0 24px;
+}
+.search__btn{
+    padding: 17px 95px;
+    border: none;
+    background: #ff9700;
+    text-transform: uppercase;
+    font: 14px var(--bold);
+    color: var(--footer-gray);
+}
+.search__box__item{
+    display: flex;
+    align-items: center;
+}
+.search__list{
+    padding-right: 24px;
+    
+}
+.dwnld_card .card_title h5{
+    font: 20px var(--semibold);
+    color: var(--footer-gray);
+}
+.dwnld_card .dwnld_card_body p{
+    font: 16px/24px var(--regular);
+    color: var(--smokey-gray);
+}
+.dwnld_card{
+    border: 2px solid #EBEBEB;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 32%;
+    margin-bottom: 30px;
+}
+.doner_history{
+    display: flex;
+    padding-bottom: 24px;
+}
+.received-item{
+    padding-right: 60px;
+}
+.donation_card_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 25px;
+    background:#FCF0D9;
+}
+.card_footer_item{
+    padding: 0 10px 0;
+}
+.card_footer_item a{
+    font: 12px/16px var(--semibold);
+    text-transform: uppercase;
+}
+
+.dwnld_card .card_title{
+padding-top: 15px;
+}
+.dwnld_card_body{
+    padding: 10px 0 24px;
+}
+.dwnld_inner_set{
+    padding: 16px;
+}
+.received-item p{
+    font: 18px/18px var(--semibold);
+    color: var(--footer-gray);
+}
+.received-item span{
+    font: 14px/23px var(--regular);
+    color: #8C8E99;
+}
+.arrow-img{
+    background:#FF9500;
+    width: 140px;
+    /* height: 30px; */
+    margin-top: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.arrow-img p{
+    font: 12px var(--semibold);
+    color:var(--footer-gray) ;
+    padding: 10px; 
+}
+.download__caerd__set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ======================= */
+/* pot card set css */
+.pot_card_set{
+justify-content: flex-start;
+}
+.pot_dwn_card{
+    margin-right: 30px;
+}
+/* ============== */
+.pot_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px;
+    background: #FCF0D9;
+}
+
+
+
+
+
+
+
+@media (min-width: 992px){
+.modal-lg{
+    max-width: 600px;
+}
+}
+
+@media only screen and (max-width: 1024px){
+    .profile__input__group {
+        width: 80%;
+        margin: 0;
+    }
+    .dwnld_card {
+        width: 48%;
+    }
+    .pot_card_set {
+        justify-content: space-between;
+    }
+    .pot_dwn_card {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .profile__input__group {
+        width: 100%;
+        margin: 0;
+        }
+        .search__box__item {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .search__list {
+            padding-right: 0px;
+            margin-bottom: 20px;
+        }
+        .myprofile_banner_set h2 {
+            font: 46px/50px var(--hevy);
+        }
+        .received-item {
+            padding-right: 48px;
+        }
+
+}
+@media only screen and (max-width: 736px){
+    .profile__item {
+        padding-right: 0px;
+    }
+    .donation_body_wrapper .group_cards .card__item {
+        margin-bottom: 20px;
+    }
+    .group_cards {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+    .myprofile_banner_set h2 {
+        font: 43px/50px var(--hevy);
+    }
+}
+@media only screen and (max-width: 684px){
+    .dwnld_card {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 667px){
+    .myprofile_banner_set h2 {
+        font: 50px/60px var(--hevy);
+        display: inline;
+    }
+}
+@media only screen and (max-width: 600px){
+    .profile__nav{
+        overflow-x: scroll;
+    }
+    .profile__item {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .myprofile_banner_set h2 {
+        font: 48px/60px var(--hevy);
+    }
+}
+@media only screen and (max-width: 550px){
+    .myprofile_banner_set h2 {
+        font: 44px/60px var(--hevy);
+    }
+    .search__icon {
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .profile__input__group .input_group{
+        flex-direction: column;
+    }
+    .profile__input__group .input_item {
+        width: 100%;
+    }
+    .myprofile_banner_set h2 {
+        font: 40px/42px var(--hevy);
+    }
+    .search__icon {
+        width: 430px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .mt-100{
+        padding-top: 50px;
+    }
+    .header-title{
+        margin: 30px 0px 40px;
+    }
+    .change_modal_title h2 {
+        font: 33px/30px var(--hevy);
+    }
+    .myprofile_banner_set h3 {
+        font: 22px/34px var(--hevy);
+    }
+    h2 span.doller {
+        display: block;
+    }
+    .search__icon {
+        width: 370px;
+    }
+    .myprofile_banner_set{
+        padding: 20px 20px 20px;
+    }
+    .donation_body_wrapper .group_cards .card__item{
+        text-align: center;
+        width: 48%;
+        height: 100%;
+        min-height: 110px;
+        margin: 10px 0px;
+        padding: 10px;
+        background-size: cover !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 12px;
+    }
+    .card__item h4 {
+        font: 22px var(--bold);
+        padding-top: 5px;
+    }
+    .group_cards{
+        justify-content: space-between;
+    }
+    .donation_card_footer{
+        padding: 15px 0 15px;
+    }
+    .profile_section {
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .change_modal_title h2 {
+        font: 32px/30px var(--hevy);
+    }
+    .search__icon {
+        width: 360px;
+    }
+    .myprofile_banner_set h2 {
+        font: 42px/46px var(--hevy);
+    }
+}
+@media only screen and (max-width: 375px){
+    .change_modal_title h2 {
+        font: 38px/44px var(--hevy);
+    }
+    .myprofile_banner_set h3 {
+        font: 20px/28px var(--hevy);
+    }
+    .myprofile_banner_set h2 {
+        font: 36px/42px var(--hevy);
+    }
+    .search__icon {
+        width: 325px;
+    }
+    .received-item {
+        padding-right: 42px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .received-item {
+        padding-right: 18px;
+    }
+    .search__icon {
+        width: 280px;
+    }
+    .myprofile_banner_set h2 {
+        font: 30px/35px var(--hevy);
+    }
+    .myprofile_banner_set h3 {
+        font: 16px/28px var(--hevy);
+    }
+}

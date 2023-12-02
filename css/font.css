@@ -1,0 +1,20 @@
+@font-face {
+    font-family:sf-semibold;
+    src: url(../fonts/SF-Pro-Display-Semibold.ttf);
+  }
+  @font-face {
+    font-family:sf-hevy;
+    src: url(../fonts/SF-Pro-Display-Heavy.ttf);
+  }
+  @font-face {
+    font-family:sf-regular;
+    src: url(../fonts/SF-Pro-Display-Regular.ttf);
+  }
+  @font-face {
+    font-family:sf-bold;
+    src: url(../fonts/SF-Pro-Display-Bold.ttf);
+  }
+  @font-face {
+    font-family:sf-medium;
+    src: url(../fonts/SF-Pro-Display-Medium.ttf);
+  }

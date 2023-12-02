@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Profile</title>
+
+        <link rel="icon" href="./assets/web app_png/Logo_Header@2x.png" />
+        <!-- Bootstrap v4.6.1 css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl_carousel.min.css" />
+        <link rel="stylesheet" href="css/owl_theme.min.css" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <link rel="stylesheet" href="css/header_footer.css" />
+        <link rel="stylesheet" href="css/my-profile.css" />
+    </head>
+    <body>
+        <header class="header__box" id="Header"></header>
+        <section class="mt-100 profile_banner_section">
+            <div class="container-fluid">
+                <div class="custom_container">
+                    <ul class="breadcrumb-set">
+                        <li><a class="link" href="index.html">Home</a></li>
+                        <li><a class="link" href="javascript:void(0)">My Profile</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="myprofile_banner_set">
+                            <h3>Hey you are super donor</h3>
+                            <h2>You donated to mypeople</h2>
+                            <h2>till now <span class="doller">$ 500,000.00</span></h2>
+                            <div class="dhash_btn">
+                                <a class="shareit" href="javascript:void(0)">Share it on social media</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="profile_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header-title">
+                        <h2>MY PROFILE</h2>
+                    </div>
+                </div>
+
+                <div class="my__profile__wrapper">
+                    <div class="profile__tab">
+                        <ul class="nav nav-pills profile__nav">
+                            <li class="nav-item profile__item">
+                                <a class="nav-link profile__link active" data-toggle="pill" href="#myProfile" role="tab" aria-controls="pills-myProfile" aria-selected="true">My Profile</a>
+                            </li>
+                            <li class="nav-item profile__item">
+                                <a class="nav-link profile__link" data-toggle="pill" href="#myDonation" role="tab" aria-controls="pills-myDonation" aria-selected="false">My Donations</a>
+                            </li>
+                            <li class="nav-item profile__item">
+                                <a class="nav-link profile__link" data-toggle="pill" href="#myPotDonation" role="tab" aria-controls="pills-myPotDonation" aria-selected="false">My Pot Donations</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content profile_tab_content">
+                             <!-- **************** MY PROFILE*************** -->
+                            <div class="tab-pane fade show active tab_profile_body" id="myProfile" role="tabpanel" aria-labelledby="my-profile">
+                                <div class="profile__title">
+                                    <h4>My Profile</h4>
+                                </div>
+                                <div class="total_input_group profile__input__group">
+                                    <div class="input_group">
+                                        <div class="input_item">
+                                            <label for="first_name">First Name</label>
+                                            <input id="first_name" type="text" placeholder="Enter First Name" />
+                                        </div>
+                                        <div class="input_item">
+                                            <label for="last_name">Last Name(Optional)</label>
+                                            <input id="last_name" type="text" placeholder="Enter Last Name" />
+                                        </div>
+                                        <div class="input_item">
+                                            <label for="email_address">Email Address</label>
+                                            <input id="email_address" type="text" placeholder="Enter emai address" />
+                                        </div>
+                                        <div class="input_item">
+                                            <label for="email_address">Mobile Number</label>
+                                            <input id="email_address" type="text" placeholder="Enter emai address" />
+                                        </div>
+                                        <div class="input_item">
+                                            <label for="country">Country</label>
+                                            <select name="country" id="">
+                                                <option value="">Select your country</option>
+                                                <option value="">IND</option>
+                                                <option value="">PAK</option>
+                                                <option value="">AUS</option>
+                                                <option value="">ENG</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="change_btn_group">
+                                        <div class="change_link">
+                                            <a class="change_profile_pwd" href="javascript:void(0)" data-toggle="modal" data-target="#change_pwd">Change Password</a>
+                                        </div>
+                                        <div class="lets__go__btn active_btn" id="GoInside">
+                                            <a href="javascript:void(0)">Update Profile</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- **************** MY DONATION *************** -->
+                            <div class="tab-pane fade tab_profile_body" id="myDonation" role="tabpanel" aria-labelledby="my-donation">
+                                <div class="profile_donation_box">
+                                    <div class="donation_body_wrapper">
+                                        <div class="group_cards">
+                                            <div class="card__item orange__card">
+                                                <p>Total Donated Campaigns</p>
+                                                <h4>$ 57,344.00</h4>
+                                            </div>
+                                            <div class="card__item blue__card">
+                                                <p>Donated Amount</p>
+                                                <h4>$ 20,000.00</h4>
+                                            </div>
+                                            <div class="card__item orange__card">
+                                                <p>Total Donations</p>
+                                                <h4>$ 27,000.00</h4>
+                                            </div>
+                                        </div>
+                                        <div class="donation__banner__box">
+                                            <div class="profile__title">
+                                                <h4>My Donations</h4>
+                                            </div>
+                                            <!-- search bar -->
+                                            <div class="search__box__section">
+                                                <div class="search__box__item">
+                                                    <div class="search__list">
+                                                        <input class="search__icon" type="text" placeholder="Search pots" />
+                                                    </div>
+                                                    <div class="search__list">
+                                                        <button class="search__btn" type="submit">Search</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="donation_card_box">
+                                                <div class="download__caerd__set">
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dwnld_card">
+                                                        <div class="arrow-img">
+                                                            <p>Flood Affected People</p>
+                                                        </div>
+                                                        <div class="dwnld_inner_set">
+                                                            <div class="card_title">
+                                                                <h5>For relief work in Assam Floods</h5>
+                                                            </div>
+                                                            <div class="dwnld_card_body">
+                                                                <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                            </div>
+                                                            <ul class="doner_history">
+                                                                <li class="received-item">
+                                                                    <p>$ 93800.00</p>
+                                                                    <span>Donated Amount</span>
+                                                                </li>
+                                                                <li class="received-item">
+                                                                    <p>25 Nov 2022</p>
+                                                                    <span>25 Nov 2022</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="dwnld_card_footer donation_card_footer">
+                                                            <div class="card_footer_item">
+                                                                <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                                <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- **************** MY POT DONATION *************** -->
+                            <div class="tab-pane fade tab_profile_body" id="myPotDonation" role="tabpanel" aria-labelledby="my-pot-donation">
+                               <div class="pot_donation_banner">
+                                <div class="donation__banner__box">
+                                    <div class="profile__title">
+                                        <h4>My Donations</h4>
+                                    </div>
+                                    <!-- search bar -->
+                                    <div class="search__box__section">
+                                        <div class="search__box__item">
+                                            <div class="search__list">
+                                                <input class="search__icon" type="text" placeholder="Search pots" />
+                                            </div>
+                                            <div class="search__list">
+                                                <button class="search__btn" type="submit">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="donation_card_box">
+                                        <div class="download__caerd__set pot_card_set">
+                                            <div class="dwnld_card pot_dwn_card">
+                                                <div class="arrow-img">
+                                                    <p>Flood Affected People</p>
+                                                </div>
+                                                <div class="dwnld_inner_set">
+                                                    <div class="card_title">
+                                                        <h5>For relief work in Assam Floods</h5>
+                                                    </div>
+                                                    <div class="dwnld_card_body">
+                                                        <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                    </div>
+                                                    <ul class="doner_history">
+                                                        <li class="received-item">
+                                                            <p>$ 93800.00</p>
+                                                            <span>Donated Amount</span>
+                                                        </li>
+                                                        <li class="received-item">
+                                                            <p>25 Nov 2022</p>
+                                                            <span>25 Nov 2022</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dwnld_card_footer">
+                                                    <div class="pot_footer">
+                                                        <div class="card_footer_item">
+                                                            <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                            <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                        </div>
+                                                        <div class="card_footer_item">
+                                                            <a class="link" href="javascript:void(0)">VIEW UPDATE</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="dwnld_card pot_dwn_card">
+                                                <div class="arrow-img">
+                                                    <p>Flood Affected People</p>
+                                                </div>
+                                                <div class="dwnld_inner_set">
+                                                    <div class="card_title">
+                                                        <h5>For relief work in Assam Floods</h5>
+                                                    </div>
+                                                    <div class="dwnld_card_body">
+                                                        <p>Assam is facing a devastating flood. There are lives and livelihoods that have been destroyed. …</p>
+                                                    </div>
+                                                    <ul class="doner_history">
+                                                        <li class="received-item">
+                                                            <p>$ 93800.00</p>
+                                                            <span>Donated Amount</span>
+                                                        </li>
+                                                        <li class="received-item">
+                                                            <p>25 Nov 2022</p>
+                                                            <span>25 Nov 2022</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dwnld_card_footer">
+                                                    <div class="pot_footer">
+                                                        <div class="card_footer_item">
+                                                            <img src="assets/web app_svg/download receipt.svg" alt="upload_img" />
+                                                            <a class="link" href="javascript:void(0)">Download Receipt</a>
+                                                        </div>
+                                                        <div class="card_footer_item">
+        
+                                                            <a class="link" href="javascript:void(0)">VIEW UPDATE</a>
+                                                        </div>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid footer__section" id="Footer"></footer>
+
+        <!-- Change Password Modal -->
+        <div id="change_pwd" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="change-modal-body">
+                            <div class="change_modal_title">
+                                <h2>Change Password</h2>
+                            </div>
+                            <div class="total_input_group">
+                                <div class="input_group">
+                                    <div class="input_item modal_chng_input">
+                                        <label for="pwd">Old Password</label>
+                                        <input id="password" type="text" placeholder="**********" />
+                                    </div>
+                                    <div class="input_item modal_chng_input">
+                                        <label for="pwd">New Password</label>
+                                        <input id="password" type="text" placeholder="**********" />
+                                    </div>
+                                    <div class="input_item modal_chng_input">
+                                        <label for="pwd">Verify - New Password</label>
+                                        <input id="password" type="text" placeholder="**********" />
+                                    </div>
+                                </div>
+                                <div class="save_chng_btn">
+                                    <div class="lets__go__btn active_btn" id="GoInside">
+                                        <a href="javascript:void(0)">Save Changes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jquery js  -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap v4.6.1 -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap popper js -->
+        <script src="js/bt_popper.min.js"></script>
+        <!-- owl carousel -->
+        <script src="js/owl_carousel.min.js"></script>
+        <script src="css/animate.min.css"></script>
+        <!-- marquee auto carousel -->
+        <!-- <script src="js/marquee.js"></script> -->
+        <!-- owl jquery  -->
+        <script src="js/owl_jquery.js"></script>
+        <!-- custom js -->
+        <script src="js/common.js"></script>
+        <!-- header and footer jquery -->
+        <script src="js/header_footer.js"></script>
+    </body>
+</html>

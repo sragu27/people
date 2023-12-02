@@ -1,0 +1,106 @@
+
+   /*------------ CREDENTIALS TO LOGIN START-----------*/
+
+   @media screen and (max-width:1690px) {
+    .login_signup_control {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1690px) {
+    .login_signup_control {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .login_signup_control {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .login_signup_control {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .total_input_group {
+        width: 85%;
+
+    }
+
+    .login_signup_control {
+        width: 85%;
+    }
+
+    .ct_action {
+        width: 68%;
+    }
+
+    .login_signup_control {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .login_signup_control {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    .login_signup_control {
+        /* width: 83%; */
+        flex-direction: column;
+    }
+
+    .input_item {
+        width: 100%;
+    }
+
+    .input_group {
+        flex-direction: column;
+    }
+
+    .gap_create{
+        margin-bottom:25px;
+    }
+
+    .lets__go__btn {
+       width:100%;
+    }
+
+    .signup_account p {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .total_input_group {
+        width: 100%;
+    }
+
+    .ct_action {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .forget_link {
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 375px){
+.forget_link {
+    padding: 20px 0px;
+}
+
+}
+
+/*------------ CREDENTIALS TO LOGIN END-----------*/
+
+

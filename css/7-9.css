@@ -1,0 +1,564 @@
+/*------------ CREDENTIALS TO LOGIN START-----------*/
+
+ .form_page{
+    padding-top:100px;
+}
+
+.total_login_page > h1{
+    text-transform:uppercase;
+    font: 40px/45px var(--hevy);
+    color:var(--footer-gray);
+    text-align:center;
+    padding-bottom:60px;
+}
+
+
+.total_input_group{
+    width:75%;
+    margin:0 auto;
+    /* display:flex;
+    justify-content:space-between; */
+}
+
+
+.ct_action{
+    width:100%;
+    margin:0 auto;
+}
+
+.forget_link{
+    color:var(--dark-orange);
+    font-size:14px;
+    font-weight:700;
+    font-family:var(--bold);
+    padding:50px 0px;
+    display:inline-block;
+}
+
+.login_sigup_control{
+    /* display:flex; */
+    /* align-items:center; */
+    /* padding-bottom:50px; */
+}
+
+.login_signup_control{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-bottom:80px;
+}
+
+.signup{
+    color:var(--dark-orange);
+    font-size:16px;
+    font-family:var(--bold);
+    font-weight:700;
+}
+
+.signup_account p{
+    color:var(--login-para);
+    font-size:16px;
+    font-family:var(--regular);
+    line-height:23px;
+}
+
+/*------------ CREDENTIALS TO LOGIN END-----------*/
+
+/*------------ CREDENTIALS TO SIGNUP START-----------*/
+.input_item > select{
+    border:1px solid RGBA(38, 38, 38, 0.25);
+    border-radius:4px;
+    width:100%;
+    height:50px;
+    color: var(--smokey-gray);
+    font-size: 16px;
+    font-weight: 500;
+    font-family:var(--regular);
+    line-height: 23px;
+    padding-left:15px;
+    appearance:none;
+
+} 
+
+.input_item > img{
+    position:absolute;
+    top:40px;
+    right:8px;
+}
+
+.border_underline{
+    border-bottom:1px solid var(--border-line);
+}
+​
+.font_resize{
+    font-size:16px;
+}
+.terms_and_condition{
+    padding:40px 0px;
+}
+
+.terms_and_condition > p{
+    margin-left:15px;
+
+}
+
+.signin_page{
+    padding-bottom:50px;
+}
+
+/*------------ modal-popup -------------*/
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.popup_cut{
+    display:block;
+}
+
+.opt_item{
+    width:60px;
+    height:60px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid RGB(63, 62, 64);
+    line-height:60px;
+    font-size:30px;
+    margin-right:20px;
+}
+
+.opt_item::placeholder{
+    color:RGB(63, 62, 64);
+}
+
+.OTP_type{
+    text-align:center;
+}
+
+.OTP_type p{
+   color:var(--dark-orange);
+   font-size:14px;
+   font-family:var( --bold);
+   font-weight:700;
+   padding: 25px 0px;
+}
+
+.popup_title {
+    color:var(--footer-gray);
+    font-size:40px;
+    font-family:sf-hevy;
+    font-weight:900;
+    width: 60%;
+    margin: 0 auto;
+}
+.password_mobilnumber p{
+    color:var(--footer-gray);
+    font-size:18px;
+    font-family:var(--regular);
+    line-height:24px;
+    font-weight:400;
+    text-align:center;
+}
+
+.otp_number{
+    color:var(--dark-orange);
+    font-size:18px;
+    font-family:var(--medium);
+}
+.modal-footer{
+    text-align:center;
+    display: block;
+    border-top: 0px solid #dee2e6;
+} 
+
+.modal-header {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/*------------ CREDENTIALS TO SIGNUP END-----------*/
+
+/*------------ CONFORM-PAYMENT-START ----------------*/
+
+  .bank_information{
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+   
+  }
+
+  .view_detail{
+    width:100%;
+    margin:0 auto;
+  }
+
+  .bank_information p{
+    color:var(--footer-gray);
+    font-size:16px;
+    font-family:var(--semibold);
+    font-weight:600;
+    padding-bottom:8px;
+  }
+
+  .transfore_para{
+    color:var(--primary-color);
+    font-size:12px;
+    line-height:16px;
+    font-family:var(--regular);
+    padding-bottom:50px;
+  }
+
+  .payment_control{
+    padding:0px 0px;
+    margin-bottom:6px;
+    display: flex;
+    align-items: center;
+  }
+  .payment_control label{
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+  .checkbox_group{
+    padding:20px 0px;
+  }
+
+  .payment_backbutton button{
+    color:var(--dark-gray);
+    border:2px solid var(--dark-gray);
+    border-radius:4px;
+    font-size:14px;
+    font-weight:400;
+    font-family:var(--bold);
+    background:#fff;
+    /* padding:12px 80px; */
+    width:250px;
+    height:50px;
+  }
+
+  /* .payment_page{
+    justify-content: center;
+    width: 100%;
+  } */
+  .payment_process_control{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  
+  /*------------ CONFORM-PAYMENT-END ----------------*/
+
+  /*------------- update-payment-start-------------- */
+    .update_title {
+        color:var(--footer-gray);
+        font:16px/23px var(--bold);
+        font-weight:600;
+        padding-bottom: 15px;
+    }
+
+    .bank_update_title{
+        display:flex;
+        justify-content:space-between;
+    }
+    .account_number_sort_code{
+        display:flex;
+        margin-bottom: 10px;
+    }
+
+    .account_holder p:nth-of-type(1){
+        color:#747176;
+        font:12px/23px var(--medium);
+    }
+
+    .account_holder p:nth-of-type(2){
+        color:#3F3E40;
+        font:16px/23px var(--regular);
+    }
+
+    .account_detail p:nth-of-type(1){
+        color:#747176;
+        font:12px/23px var(--medium);
+    }
+
+    .account_detail p:nth-of-type(2){
+        color:#3F3E40;
+        font:16px/23px var(--regular);
+    }
+
+    .account_detail{
+        /* margin-right: 30px; */
+        width: 41%;
+    }
+    
+    .account_holder{
+        padding: 15px 0px;
+    }
+
+    .bank_info{
+    background: #F8F8F8;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 10px;
+    padding: 15px 20px;
+    }
+
+    .bank_information_card{
+        display:flex;
+        justify-content:space-between;
+        width:100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .bank_info_title{
+        width:48%;
+    }
+    .upload_payment{
+        width: 48%;
+    }
+    .upload_img{
+        width: 100%;
+    }
+/* =========== modal popup =========== */
+  .success-modal-pot{
+    width: 30%;
+    margin: auto;
+  }
+  .success-modal-body h2{
+    font: 40px/50px var(--hevy);
+    color: var(--footer-gray);
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  /* end */
+  .bank-info-main{
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:667px) {
+    .success-modal-pot{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width:412px){
+    .success-modal-body{
+      margin: 20px 0px;
+    }
+    .success-modal-body h2{
+      padding-bottom: 10px;
+      font: 34px/38px var(--hevy);
+    }
+  }
+/* =========== modal popup end =========== */
+
+  /*------------- update-payment-end-------------- */
+/*------------ CONFORM THE PAYMENT START-----------*/
+@media screen and (max-width:1690px) {
+    .login_signup_control {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1690px) {
+    .login_signup_control {
+        width: 60%;
+    }
+}
+/* ---------conform-the-payment-start--------- */
+
+@media screen and (max-width:1440px) {
+    
+    .payment_backbutton{
+        margin-left:100px;
+    }
+ 
+     .total_input_group {
+         width: 85%;
+     }
+    
+}
+@media screen and (max-width:1300px) {
+    .login_signup_control {
+        width: 70%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .total_input_group {
+        width: 90%;
+    }
+}
+@media screen and (max-width:1150px) {
+    .login_signup_control {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .bank_information_card{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bank_info_title{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .upload_payment {
+        width: 100%;
+    }    
+    .total_input_group {
+        width: 85%;
+
+    }
+
+    .login_signup_control {
+        width: 85%;
+    }
+
+    .login_signup_control {
+        width: 80%;
+    }
+}
+@media screen and (max-width:900px) {
+    .login_signup_control {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:834px) {
+
+    .payment_backbutton {
+        margin-left:0;
+    }
+}
+ 
+@media screen and (max-width:780px) {
+    .payment_backbutton button {
+       width:97%;
+    }
+
+    .payment_backbutton {
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .bank_info {
+        width: 100%;
+    }
+    .login_signup_control {
+        /* width: 83%; */
+        flex-direction: column;
+    }
+
+    .input_item {
+        width: 100%;
+    }
+
+    .input_group {
+        flex-direction: column;
+    }
+
+    .gap_create{
+        margin-bottom:25px;
+    }
+
+    .lets__go__btn {
+       width:100%;
+    }
+
+    .signup_account p {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:550px) {
+    .success-modal-body{
+        margin: 30px 0px 0px;
+    }
+    .bank_info_title{
+        width: 100%;
+    }
+    .total_login_page > h1{
+        font: 32px/40px var(--hevy);
+        padding-bottom: 30px;
+    }
+    .total_login_page > h1 > br {
+        display: none;
+    }
+    .transfore_para>br{
+        display: none;
+    }
+    .upload_label{
+        width: 100%;
+    }
+    .payment_control{
+        align-items: flex-start;
+    }
+    .payment_control>input{
+        margin-top: 6px;
+    }
+    .payment_control label{
+        margin-left: 10px;
+    }
+    .lets__go__btn:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .success-modal-body h2 {
+        font: 32px/40px var(--hevy);
+    }
+}
+@media screen and (max-width:530px) {
+    .bank_info_title {
+        width: 100%;
+    }
+    .payment_process_control{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+ 
+}
+@media screen and (max-width:470px) {
+
+}
+
+@media screen and (max-width:425px) {
+    .forget_link {
+        padding: 30px 0px;
+    }
+}
+@media screen and (max-width:420px) {
+    .account_holder{
+        padding: 0px;
+    }
+    .account_number_sort_code{
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .account_holder{
+        margin-bottom: 10px;
+    }
+    .account_detail:not(:last-child){
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .forget_link {
+        padding: 20px 0px;
+    }
+} 
+
+
+
+
+

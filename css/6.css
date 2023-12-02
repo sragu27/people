@@ -1,0 +1,491 @@
+/* page 2 css */
+.share__icon img{
+    width: 28px;
+}
+.sub__title__menu{
+    display: flex;
+    justify-content: space-between;
+}
+.causes__main__header h2{
+    font: 40px/60px var(--bold);
+    color: var(--footer-gray);
+}
+.causes__main__header h2 span{
+    display: block;
+}
+.causes__wrapper__items{
+    width: 48%;
+}
+.causes__wrapper__banner__range__img{
+    text-align: center;
+}
+.causes__wrapper__body__section{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.causes__wrapper__banner__img img{
+    width: 100%;
+    border-radius: 16px;
+}
+.causes__wrapper__banner__range__img img{
+    width: 404px;
+
+}
+.causes__range__slide__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.causes__range__slide__item li{
+    font: 24px/18px var(--bold);
+    color: var(--footer-gray);
+}
+.causes__range__slide__item li span{
+    font: 18px/19px var(--medium);
+    color: #8C8E99;
+}
+.cause__range{
+    width: 100%;
+    height: 15px;
+    -webkit-appearance: none;
+    background: var(--eggshell);
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px var(--eggshell);
+}
+.cause__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--dark-orange);
+    cursor: pointer;
+    border: 4px solid var(--dark-orange);
+    box-shadow: -400px 0 0 450px var(--dark-orange);
+  }
+  .causes__range__slide__item .cause_range_Value{
+    font: 24px/25px var(--bold);
+    color: var( --forest-green);
+  }
+.range__info{
+    display: flex;
+    justify-content: space-between;
+}
+.range__info{
+    color: var(--regent-gray);
+    font: 18px/24px var(--medium);
+}
+.description__list{
+    display: flex;
+}
+.description__inner__items{
+    padding-right:16px;
+}
+.description__header__items{
+    display: flex;
+    justify-content: space-between;
+}
+.input__currency{
+    padding: 11px 16px;
+    border-radius: 4px;
+    color: var( --regent-gray);
+    border: none;
+    border: 1px solid RGBA(38, 38, 38, 0.25);
+    width: 321px;
+}
+.input__currency:focus-visible{
+    outline: none;
+}
+.input__currency::placeholder{
+    font: 12px var(--regular);
+    color: var(--regent-gray);
+}
+.select__currency__group{
+    position: relative;
+}
+.select__currency{
+    position: absolute;
+    top: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 11px 16px;
+    right: 5px;
+    font: 18px var(--semibold);
+    color: var(--footer-gray);
+    border-left: 1px solid RGBA(38, 38, 38, 0.25) ;
+}
+.description__btn .donate__btn{
+    border: none;
+    background: var(--dark-orange);
+    color: var(--charcoal-grey);
+    font: 12px var(--bold);
+    padding: 18px 35px;
+    text-transform: uppercase;
+}
+.descrip__accordian h3{
+    font: 24px var(--semibold);
+    color: RGBA(0, 0, 0, 0.85);
+}
+.accordian__document{
+    display: flex;
+}
+.accordian__document .document__item{
+    padding-right: 12px;
+}
+.accordian__document .document__item img{
+    width: 100%;
+}
+.campaign__title h2{
+    text-transform: uppercase;
+    font: 44px/40px var(--hevy);
+    color: var(--footer-gray);
+}
+.description__accordian__items{
+    padding-bottom: 80px;
+}
+.campaigns__wrapper__box{
+    background: var(--bg-light-gray);
+}
+.campaign__title{
+    padding: 60px 40px;
+}
+
+/* ======================= */
+.donation-pot_banner{
+    background-image: url(../assets/web\ app_png/pot_banner.png);
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+  }
+  .donation-pot_content h1{
+    font: 44px/50px var(--hevy);
+    color: var(--footer-gray);
+    padding-bottom: 10px;
+  }
+  .donation-pot_content p{
+    font: 16px/24px var(--regular);
+    color: var(--smokey-gray);
+    padding-bottom: 40px;
+  }
+  .donation-pot_body_section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    width: 98%;
+    margin: auto;
+  }
+  .donation-pot_items{
+    width: 45%;
+  }
+  .donation-pot_list .lets__go__btn{
+    margin-right: 24px;
+  }
+  #donation-potBtn {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+  }
+  #donation-potBtn a {
+      position: relative;
+      transition: all .35s ease-Out;
+      color: var(--dark-gray);
+      text-decoration: none;
+      font: 14px/18px var(--bold);
+      text-transform: uppercase;
+  }
+  .campaign__card__box{
+    padding-bottom: 80px;
+  }
+/* ====================== */
+/* accordian css */
+.updates_item{
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    padding: 16px;
+}
+.updates_item h5{
+    font: 16px/16px var(--medium);
+    color: var(--footer-gray);
+}
+.updates_item span{
+font: 14px var(--regular);
+color: #807d81;
+}
+.updates_descreption p{
+    padding: 0;
+}
+.updates_descreption{
+    padding-top: 10px;
+}
+.update,.doners{
+    display: flex;
+    align-items: center;
+}
+.update span,.doners span{
+    font: 16px/16px var(--semibold);
+    color: var(--dark-orange);
+    margin-left: 5px;
+}
+.doner_body_set{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+.doner_content{
+    padding-left: 20px;
+}
+.doner_content p{
+    padding: 0;
+}
+.donner_footer{
+    text-align: center;
+    background-color: #FCF0D9;
+    padding: 20px 0;
+}
+.doner__items{
+    border: 2px solid #EBEBEB;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 32%;
+    margin-bottom: 30px;
+}
+.doner__items .donner_footer a{
+    font: 12px/16px var(--semibold);
+    text-transform: uppercase;
+    color: var(--dark-orange);
+    text-decoration: none;
+}
+.doners__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+  /* ================================ */
+  @media only screen and (max-width: 1440px){ 
+
+    .causes__wrapper__banner__range__img img {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .causes__wrapper__banner__range__img img {
+        width: 240px;
+    }
+    .description__header__items {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .description__list {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .tab__item {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+    .description__list {
+        padding-bottom: 30px;
+        padding-right: 70px;
+    }
+    .description__header__items {
+        justify-content: normal;
+    }
+    .card__common__box {
+        justify-content: space-around;
+    }
+    .donate-form-set, .donation-pot_body_section {
+        width: 100%;
+    }
+    .donation-pot_items {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .causes__wrapper__banner__range__img img {
+        width: 185px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .description__list {
+        padding-bottom: 30px;
+        padding-right: 65px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+.causes__wrapper__list .causes__wrapper__item{
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+.causes__wrapper__list .causes__wrapper__item li{
+    padding-right: 50px;
+}
+.search__box__item {
+    flex-wrap: wrap;
+}
+.search__list {
+    padding-bottom: 24px;
+}
+.causes__wrapper__body__section {
+    flex-wrap: wrap;
+}
+.causes__main__header h2 {
+    font: 40px/45px var(--bold);
+}
+.causes__wrapper__banner__range__img img {
+    width: 300px;
+}
+.causes__wrapper__items {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.causes__main__header h2 span {
+    display: inline-block;
+}
+.description__list {
+    padding-right: 70px;
+}
+.campaign__title {
+    padding: 60px 15px;
+}
+.campaign__title h2 {
+    text-transform: uppercase;
+    font: 44px/50px var(--hevy);
+}
+.tab__item {
+    width: 80%;
+}
+.campaign__card__box {
+    padding-bottom: 60px;
+}
+.donation-pot_items {
+    width: 100%;
+    background: #ffffff82;
+    border-radius: 12px;
+    padding: 10px;
+}
+.donation-pot_content p {
+    padding-bottom: 10px;
+}
+.lets__go__btn {
+    margin-bottom: 10px;
+    width: 100%;
+}
+#btnSlide {
+    left: -100%;
+}
+}
+@media only screen and (max-width: 736px){
+.description__header__items {
+    display: flex;
+    justify-content: space-between;
+}
+.campaign__card__box {
+    padding-bottom: 50px;
+}
+.tab__item {
+    width: 90%;
+}
+}
+@media only screen and (max-width: 684px){
+    .sub__title__menu {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .causes__wrapper__sub__tittle p {
+        padding-bottom: 15px;
+    }
+    .causes__main__header h2 {
+        font: 37px/45px var(--bold);
+    }
+    .causes__main__header h2 {
+        font: 40px/45px var(--bold);
+    }
+}
+@media only screen and (max-width: 580px){
+    .campaign__title h2 {
+        font: 42px/50px var(--hevy);
+    }
+    .campaign__title {
+        padding: 40px 15px;
+    }
+    .tab__item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .causes__main__header h2 {
+        font: 38px/45px var(--bold);
+    }
+    .campaign__title h2 {
+        font: 37px/44px var(--hevy);
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .search__icon {
+        width: 380px;
+    }
+    .tab__boady__tittle li {
+        margin-right: 0px;
+    }
+    .causes__main__header h2 {
+        font: 32px/35px var(--bold);
+    }
+    .campaign__title h2 {
+        font: 31px/35px var(--hevy);
+    }
+    .card__common__box {
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 421px){
+    .donation-pot_banner {
+        padding: 30px 0px;
+    }
+    .donate-form-set, .donation-pot_body_section {
+        width: 98%;
+    }
+    .donation-pot_content h1 {
+        font: 36px/40px var(--hevy);
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .causes__main__header h2 {
+        font: 31px/35px var(--bold);
+    }
+    .campaign__title h2 {
+        font: 40px/45px var(--hevy);
+    }
+}
+@media only screen and (max-width: 375px){
+    .search__icon {
+        width: 335px;
+    }
+    .causes__main__header h2 {
+        font: 28px/32px var(--bold);
+    }
+}
+@media only screen and (max-width: 320px){
+    .search__icon {
+            width: 280px;
+    }
+}

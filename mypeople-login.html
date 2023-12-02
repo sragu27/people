@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+
+        <link rel="icon" href="./assets/web app_png/Logo_Header@2x.png" />
+        <!-- Bootstrap v4.6.1 css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl_carousel.min.css" />
+        <link rel="stylesheet" href="css/owl_theme.min.css" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <link rel="stylesheet" href="css/header_footer.css"/>
+
+        <link rel="stylesheet" href="css/cust-input-form.css" />
+        <link rel="stylesheet" href="css/mypeople-login.css" />
+    </head>
+    <body>
+        <header class="header__box" id="Header"></header>
+
+        <section class="form_page">
+            <div class="total_login_page">
+                <h1>Please enter your credentials to login</h1>
+
+                <div class="total_input_group">
+                    <div class="input_group">
+                        <div class="input_item gap_create">
+                            <label for="">Email Address</label>
+                            <input id="" type="text" placeholder="Enter email address" />
+                        </div>
+
+                        <div class="input_item">
+                            <label for="">Password</label>
+                            <input id="" type="text" placeholder="Enter password" />
+                        </div>
+                    </div>
+                    <div class="ct_action">
+                        <div class="forget_password">
+                            <a class="forget_link" href="javascript:void(0)">Forgot Password?</a>
+                        </div>
+    
+                        <div class="login_signup_control">
+                            <div class="lets__go__btn active_btn" id="GoInside">
+                                <a href="#">Login</a>
+                            </div>
+    
+                            <div class="signup_account">
+                                <p>Don’t have an account? <a href="mypeople-signup.html" class="signup">Signup</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer__section" id="Footer"></section>
+
+        <!-- jquery js  -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap v4.6.1 -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap popper js -->
+        <script src="js/bt_popper.min.js"></script>
+        <!-- owl carousel -->
+        <script src="js/owl_carousel.min.js"></script>
+        <script src="css/animate.min.css"></script>
+        <!-- marquee auto carousel -->
+        <!-- <script src="js/marquee.js"></script> -->
+        <!-- owl jquery  -->
+        <script src="js/owl_jquery.js"></script>
+        <!-- custom js -->
+        <script src="js/common.js"></script>
+        <!-- header and footer jquery -->
+        <script src="js/header_footer.js"></script>
+
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+            $(document).ready(function () {
+                // menu toggle btn script
+                $(".menu-btn").click(function () {
+                    $(".mac_navbar .nav__list").toggleClass("active");
+                });
+            });
+
+            // navbar active jquery
+            $(".nav__item").on("click", function () {
+                $(".active_nav").removeClass("active_nav");
+                $(this).addClass("active_nav");
+            });
+
+            // sticky navbar
+            $(document).ready(function () {
+                $(window).scroll(function () {
+                    if (this.scrollY > 20) {
+                        $(".mac_navbar").addClass("sticky");
+                    } else {
+                        $(".mac_navbar").removeClass("sticky");
+                    }
+                });
+            });
+
+            // $('document').ready(function(){
+            // $('#tabAll').on('click', function() {
+            //     $('#tabAll').parent().addClass('tab__active');
+            //     $('.tab-pane').addClass('fade in active');
+            //     $('[data-toggle="tab__fund"]').parent().removeClass('tab__active');
+            //   });
+            // })
+        </script>
+    </body>
+</html>

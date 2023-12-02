@@ -1,0 +1,255 @@
+.donate-form-sec{
+    padding-bottom: 50px;
+}
+.donate-form-set{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.payment-set{
+    width: 100%;
+}
+.donation-method-opt-set{
+
+}
+.donation-method-opt-set h4{
+    font: 24px/30px var(--semibold);
+    color: var(--default-color);
+    padding-bottom: 10px;
+}
+.donation-method-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 55%;
+    margin-bottom: 10px;
+}
+.donation-method-items{
+    display: flex;
+    align-items: center;
+}
+.donation-method-items:not(:last-child){
+    margin-right: 10%;
+}
+.donation-method-items label{
+    font: 16px/20px var(--regular);
+    color: var(--footer-gray);
+    padding-left: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.input_group{
+    margin-bottom: 30px;
+}
+.view_detail {
+    
+}   
+.bank_information {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bank_information p {
+    color: var(--footer-gray);
+    font: 16px/18px var(--regular);
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+.ct_action {
+    border-top: 1px solid #E9E9E9;
+}
+.checkbox_group {
+    padding: 20px 0px;
+}
+.terms_and_condition {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+.terms_and_condition label{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.payment_control {
+    padding: 0px 0px;
+    margin-bottom: 6px;
+}
+.payment_control>input{
+    accent-color: #d17f0b;
+    width: 16px;
+    height: 16px;
+}
+.font_resize {
+    font-size: 16px;
+}
+.signup {
+    color: var(--dark-orange);
+    font: 16px/18px var(--regular);
+}
+.signup:hover{
+    color: var(--dark-orange);
+}
+.donation-set{
+
+}
+.donation-set h2{
+    font: 24px/30px var(--semibold);
+    color: var(--default-color);
+    padding: 20px 0px;
+}
+.donation-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.donation-items{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.about-donner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.donner-poster{
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.donation-desc{
+
+}
+.donation-desc h4{
+    font: 24px/25px var(--bold);
+    padding-bottom: 5px;
+    color: var(--default-color);
+}
+.donation-desc p{
+    font: 16px/20px var(--regular);
+    padding-bottom: 5px;
+    color: var(--footer-gray);
+}
+.total_input_group{
+    width: 70%;
+    margin-left: 0px;
+}
+@media screen and (max-width:1440px){
+    .ac-holder-details {
+        width: 70%;
+    }
+}
+@media screen and (max-width:1200px){
+    .donate-form-set,.donation-pot_body_section{
+        width: 100%;
+    }
+    .donation-pot_items {
+        width: 60%;
+    }
+}
+@media screen and (max-width:991px){
+    .donate-form-set{
+        flex-wrap: wrap;
+    }
+    .total_input_group,
+    .donation-method-opt-set {
+        width: 95%;
+        margin: auto;
+    }
+    .donation-items{
+        width: 85%;
+    }
+}
+@media screen and (max-width:768px){
+    .title-header>h2{
+        font: 36px/40px var(--hevy);
+    }
+    .title-header>h2>br{
+        display: none;
+    }
+    .donation-pot_items{
+        width: 100%;
+        background: #ffffff82;
+        border-radius: 12px;
+        padding: 10px;
+    }
+    .donation-pot_content p{
+        padding-bottom: 10px;
+    }
+    .donation-method-list{
+        width: 100%;
+    }
+    .donation-method-items:not(:last-child) {
+        margin-right: 10%;
+    }
+    .ac-holder-details {
+        width: 100%;
+    }
+    .lets__go__btn{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #btnSlide{
+        left: -100%;
+    }
+    .donation-items{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .title-header{
+        margin: 20px auto 30px;
+    }
+    .title-header>h2 {
+        font: 30px/36px var(--hevy);
+    }
+    .ac-holder-details-set{
+        padding: 15px 20px;
+    }
+    .donate-form-sec {
+        padding-bottom: 30px;
+        padding-top: 85px;
+    }
+}
+@media screen and (max-width: 500px){
+    .about-donner{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0px;
+    }
+    .donner-poster{
+        margin-bottom: 10px;
+    }
+    .donation-desc p{
+        text-align: justify;
+    }  
+    .input_item{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px){
+    .input_item {
+        width: 100%;
+    }
+    .donate-form-set, .donation-pot_body_section{
+        width: 98%;
+    }
+    .ac-holder-items {
+        width: 100%;
+    }
+    .donation-pot_banner{
+        padding: 30px 0px;
+    }
+    .donation-pot_content h1 {
+        font: 36px/40px var(--hevy);
+        padding-bottom: 5px;
+    }  
+}
+@media screen and (max-width: 414px){
+    .title-header {
+        margin: 10px auto 20px;
+    }
+}
